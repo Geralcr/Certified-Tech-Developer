@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+/*header*/
+
+header>img {
+    width: 10%;
+    height: max-content;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+    box-shadow: 0px 0px 9px -4px #261A40;
+    padding: 10px;
+}
+
+
+/*main*/
+
+.card {
+    width: 30%;
+    margin: 30px auto;
+    border: 1px dashed #261A40;
+    box-shadow: 5px 5px #4AD9BF;
+}
+
+.card {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    color: #261A40;
+    background-color: #4AD9BF;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.icon>i {
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+.enlace>p {
+    font-size: 2rem;
+}
+
+.enlace>p:hover {
+    font-size: 2.5rem;
+}
+
+.devuelta>i {
+    font-size: 4rem;
+}
