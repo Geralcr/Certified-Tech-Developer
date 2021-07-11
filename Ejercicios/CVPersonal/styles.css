@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+.foto_perfil {
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 45%;
+}
+
+header {
+    background-image: url(https://wallpaper.dog/large/17167878.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: auto;
+    padding: 10px;
+}
+
+body {
+    background-color: #fcddd0;
+}
+
+.nav {
+    margin-left: 40%;
+}
+
+.links_bio {
+    text-decoration: none;
+    color: #4c4474;
+    border: 2px solid #e9e2ce;
+    background-color: #bc7d89;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.intro_sobre_mi {
+    color: #e9e2ce;
+    background-color: #bc7d89;
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.datos {
+    color: #e9e2ce;
+    background-color: #bc7d89;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px 35%;
+}
+
+.contenido {
+    color: #4c4474;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 0 35%;
+}
+
+#contacto {
+    background-color: #bc7d89;
+    padding-left: 49%;
+    border-radius: 10px;
+    padding: 5px 45% 5px 46%;
+}
+
+span {
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+}
+
+.contacto_info {
+    width: 150px;
+}
+
+.info_title {
+    text-align: center;
+    background-color: #4c4474;
+    color: #e9e2ce;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.info_contenido {
+    text-align: justify;
+}
+
+.nav_portafolio {
+    padding-left: 45%;
+}
+
+.img_portafolio {
+    width: 25%;
+    margin: 5px 37%;
+}
+
+.title_card {
+    background-color: #4c4474;
+    color: #e9e2ce;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 0 40%;
+}
