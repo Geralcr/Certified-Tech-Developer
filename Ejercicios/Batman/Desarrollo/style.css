@@ -13,6 +13,7 @@
      width: 100px;
      height: 147px;
  }
+ /**/
  
  .title {
      background-color: #C4C4C4;
@@ -28,6 +29,7 @@
      line-height: 60px;
      margin: 0;
  }
+ /**/
  
  .section {
      background-color: #C4C4C4;
@@ -38,6 +40,7 @@
      line-height: 30px;
      padding: 6px 9px;
  }
+ /**/
  
  footer {
      background-color: #005677;

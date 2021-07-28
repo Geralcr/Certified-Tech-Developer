@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #E6E6E6;
+    text-align: center;
+    .img-batman {
+        width: 100px;
+        height: 147px;
+    }
+}
+
+.title {
+    background-color: #C4C4C4;
+    height: 60px;
+    text-align: center;
+    .title_main {
+        color: #005677;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 60px;
+        margin: 0;
+    }
+}
+
+.sectionMain {
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 6px 9px;
+}
