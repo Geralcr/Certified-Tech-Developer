@@ -1,119 +1,173 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
-
 
 /*Header*/
 
 header {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .barra_sup {
-    background-color: #1CD1B0;
-    padding: 10px;
+  background-color: #d1891c;
+  padding: 10px;
 }
 
 .barra_inf {
-    background-color: #00669F;
-    padding: 27px;
+  background-color: #00669f;
+  display: flex;
+  color: #fff;
+  padding: 27px;
+  align-items: center;
+}
+.barra_inf img {
+  padding: 5px;
+  width: 90px;
 }
 
 .barra_inf p {
-    font-size: 40px;
-    font-weight: 400;
+  font-size: 40px;
+  font-weight: 400;
 }
 
+.barra_nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #001d2d;
+  color: #fff;
+}
+.barra_nav ul {
+  display: flex;
+}
+.barra_nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+.barra_nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
 
 /*Cards*/
 
 main {
-    display: flex;
-    justify-content: space-evenly;
+  position: relative;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 90%;
 }
 
 .card {
-    margin-bottom: 10px;
-    width: 300px;
-    height: 530px;
-    background-color: #F3F3F3;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px #000;
-    text-align: center;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 530px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 2px #cecece;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 100px;
+}
+
+.header_card {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .header_card_batman {
-    background-image: url(img/fondo_batman.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    height: 200px;
+  background-image: url(img/fondo_batman.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 200px;
 }
 
 .header_card_quinn {
-    background-image: url(img/fondo_queen.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    height: 200px;
+  background-image: url(img/fondo_queen.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 200px;
 }
 
 img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .cora {
-    position: absolute;
-    left: 21px;
-    top: 15px;
+  position: absolute;
+  left: 21px;
+  top: 15px;
 }
 
 .perfil {
-    position: absolute;
-    top: 126px;
-    left: 89px;
+  position: absolute;
+  top: 126px;
+  left: 89px;
 }
 
 .body_card {
-    padding: 73px 16px 16px 16px;
+  padding: 73px 16px 16px 16px;
 }
 
 .title {
-    color: #333333;
-    font-size: 30px;
-    margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+  color: #333333;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .contein {
-    text-align: justify;
-    color: #333333;
-    height: 115px;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  color: #333333;
+  height: 115px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn_mas {
-    background-color: #00669F;
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    padding: 15px 35px;
-    margin-top: 37px;
+  background-color: #00669f;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 35px;
+  margin-top: 37px;
 }
 
+.btn-plus {
+  background-color: #00669f;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  font-size: 60px;
+  width: 60px;
+  height: 60px;
+  line-height: 12px;
+  position: sticky;
+  top: 50%;
+  left: 92%;
+  cursor: pointer;
+}
 
 /*Footer*/
 
 footer {
-    margin-top: 10px;
-    background-color: #00669F;
+  margin-top: 10px;
+  background-color: #00669f;
 }
 
 .title_footer {
-    color: #fff;
-    padding: 16px;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
 }
