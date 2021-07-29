@@ -37,8 +37,6 @@ main {
     justify-content: space-around;
     align-items: center;
     height: 70vh;
-    flex-wrap: wrap;
-    
 }
 
 i {
