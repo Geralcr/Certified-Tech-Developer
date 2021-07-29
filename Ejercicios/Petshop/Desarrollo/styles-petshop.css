@@ -33,5 +33,28 @@ header {
 .barra_menu_principal {
     background-color: #F0A83E;
     color: #ffffff;
-    display: flex
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
 }
+
+.navegacion {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff
+}
+
+.fal {
+    font-size: 20px;
+}
+
+.pets {
+    display: flex;
+}
+
+
+/*main*/
