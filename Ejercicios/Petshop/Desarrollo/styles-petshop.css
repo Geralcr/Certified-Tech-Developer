@@ -64,6 +64,9 @@ header {
 
 /*main*/
 
+
+/*banner*/
+
 .brand {
     height: 410px;
     background-image: url(img/brand.png);
@@ -86,7 +89,7 @@ header {
 
 .title {
     font-family: 'Roboto', sans-serif;
-    color: #222222;
+    color: #3C2313;
     font-size: 40px;
 }
 
@@ -111,3 +114,6 @@ header {
     right: 170px;
     top: 272px;
 }
+
+
+/*productos*/
