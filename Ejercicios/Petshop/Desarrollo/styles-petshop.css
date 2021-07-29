@@ -33,5 +33,5 @@ header {
 .barra_menu_principal {
     background-color: #F0A83E;
     color: #ffffff;
-    background-image: url('img/Logo.png ');
+    display: flex
 }
