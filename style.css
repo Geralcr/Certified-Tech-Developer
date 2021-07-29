@@ -29,7 +29,7 @@ header {
 /*main*/
 
 img {
-    width: 50vh;
+    width: 50%;
 }
 
 main {
@@ -37,6 +37,8 @@ main {
     justify-content: space-around;
     align-items: center;
     height: 70vh;
+    flex-wrap: wrap;
+    
 }
 
 i {
