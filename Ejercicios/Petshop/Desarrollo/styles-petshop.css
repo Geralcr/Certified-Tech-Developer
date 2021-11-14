@@ -117,3 +117,9 @@ header {
 
 
 /*productos*/
+
+.main-text-productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
